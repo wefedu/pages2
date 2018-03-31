@@ -1,0 +1,1 @@
+jQuery(function(a){a(".cover-slider").each(function(){var e=a(this).find(".cover-slider__slide");var d=e.length-1;var c=0;var b=function(){e.removeClass("active inactive");e.eq(c).addClass("inactive");if(c==d){c=-1}e.eq(++c).addClass("active");var f=window.setTimeout(b,5000)};b()})});
